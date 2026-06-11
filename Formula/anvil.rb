@@ -1,25 +1,25 @@
 class Anvil < Formula
   desc "Anvil CLI — structural governance for AI-assisted development"
   homepage "https://github.com/eddacraft/anvil"
-  version "0.7.4-beta"
+  version "0.8.0-beta"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.7.4-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
-      sha256 "f5153456104b5f51b3e777c16dcbe64bd558ac16c793c5ca63e016cf8598d0c2"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.8.0-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
+      sha256 "7623625a5a433ab19b115d8d3f46a60c67f9437da5ad5da037bbbf215d705508"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.7.4-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
-      sha256 "d0871e16d2f628f16279ebeae8d56c13659c2b46c7e893062393a87f824c98bf"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.8.0-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
+      sha256 "e2fc7066cc624252277bc5b68a389d6d4b9e18828abcb7140823a0646a18d67e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.7.4-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9adf173378d2c2e9e114d609cfaaf1007c56493fbd59964d3b3515e0c205bad2"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.8.0-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "70fb7882bd7fdc5575cdda764a416f6137fb443579f9e1c0720b193a06a63b08"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.7.4-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8e4bbf7db59869af5f194a4414bf06137822b8b65b3b77fa3831ced32c710389"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.8.0-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "21e2b0fc4b041f8434e2795a72e99a42da6bb69728c8be5421e939008a7226c8"
     end
   end
   license "LicenseRef-Proprietary"
