@@ -1,25 +1,25 @@
 class Anvil < Formula
-  desc "Anvil CLI — structural governance for AI-assisted development"
+  desc "anvil CLI — structural governance for AI-assisted development"
   homepage "https://github.com/eddacraft/anvil"
-  version "0.9.0-beta"
+  version "0.9.1-beta"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.9.0-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
-      sha256 "3e68f54f1b15335863106631def7f23f06acbde548011af3e91b34f7889d18e7"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.9.1-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
+      sha256 "c89b3307eb4ddb129625075c5c9daa509595cdc55055b5d0d0692ef195aae587"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.9.0-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
-      sha256 "a25133d211c8d74c70e3feb84c169ab71dbdf614a9770c874b82148477ffbd7e"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.9.1-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
+      sha256 "af42c4828c48e1e964acf8462ab68544f451672f9a77ca6fbaf31cda83b70324"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.9.0-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5a4e35d717c97260b6eb892080cbfa51306252d0c7bea0de0503e1a3cf74637a"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.9.1-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "73bb3d70defe711dc52792cbf20aae1d3347ffc620582371965a2653762bfcbb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.9.0-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ddffd0a673bbfccc234ac99e3b8fb563407af0f28ef46c00f53c8fdefbdf89c9"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.9.1-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4a100ff1956f408f7e871eeda603cd99c4a3a8990abf19b6a26b0b0653faa3fc"
     end
   end
   license "LicenseRef-Proprietary"
