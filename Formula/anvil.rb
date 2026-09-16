@@ -1,25 +1,25 @@
 class Anvil < Formula
   desc "anvil CLI — structural governance for AI-assisted development"
   homepage "https://github.com/eddacraft/anvil"
-  version "0.11.0-beta"
+  version "0.11.1-beta"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.11.0-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
-      sha256 "fa4e9e796c8ff9eb18d9276640a3cad5e13ab06ba0679f6d42c2c3c224d503b9"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.11.1-beta/eddacraft-anvil-aarch64-apple-darwin.tar.xz"
+      sha256 "a219af063bb0e618edc5b9a7ef3014693a3cbd155d186e9e2915fcf078fdc4f3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.11.0-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
-      sha256 "33178ef727272b5b84810673982a5443aadf5f70f0640236612be6ebcfa40dc5"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.11.1-beta/eddacraft-anvil-x86_64-apple-darwin.tar.xz"
+      sha256 "1090b532ce2b5716fa385bdddf11642d1b833fc6e0fbe133d2dd9592a58b3fb4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.11.0-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b7c41c7bda97b6447f3bfa856156cb3436670b8ce3002a9be3ac3af7bdc85eea"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.11.1-beta/eddacraft-anvil-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8fb9f3d7bd0741469caa4d71cc8f7adf3e3fe39441fb223b55b94996f11b90e0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eddacraft/anvil/releases/download/v0.11.0-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "81411b6025663f94028a17b1ffef49d244341e2d2e202d358080d657f4c34016"
+      url "https://github.com/eddacraft/anvil/releases/download/v0.11.1-beta/eddacraft-anvil-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d4d599e97ac9ea4aa95947d5dbca9601b0324a8cef01b802d61c7994768b7812"
     end
   end
   license "LicenseRef-Proprietary"
